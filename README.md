@@ -1,6 +1,8 @@
 # ekumsver3
 E-Kolej UTeM Management System version 3
 
+This is the coding used in Presentation FYP2
+
 Updated DB with Malaysia Timing 
 Staff Dashboard with overview of hostel application, assignment status and quick button
 Student Dashboard with annoucement about duration of the application and important things before apply
