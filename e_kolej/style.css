@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+  .sidebar {
+    width: 240px;
+    background: #003366;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px; 
+     height: 100vh;       /* full viewport height */
+    position: fixed;
+  }
+  .sidebar img {
+  width: 120px;     
+  height: auto;      
+  margin-bottom: 20px;
+}
+.sidebar h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+
+}
+.sidebar a,
+.sidebar a:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+.sidebar a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
+
+.sidebar a:active {
+  color: white;
+}
+  
+ .container {
+    display: flex;       
+    min-height: 100vh;  
+
+  }
+  
+  .dashboard-container {
+    flex: 1;  
+    padding: 30px;
+    background: #f8f8f8;
+    margin-left: 240px;
+  }
+    
+
+.signout-btn {
+  margin-top: auto;
+  width: 125px;
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.signout-btn:hover {
+  background-color: darkred;
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.form-row input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #bfc8d6;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #f7f9fa;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.form-row input:focus {
+  border: 1.5px solid #1a365d;
+}
+
+/*========== Student Application Page ========== */
+
+body.student-page {
+  margin: 0;
+  background: #f8f8f8 !important;
+}
+
+.form-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.form-table td {
+  width: auto;
+  padding: 10px 8px;
+  vertical-align: top;
+}
+
+.form-table input,
+.form-table select,
+.form-table textarea {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ========== Staff Dashboard Page ========== */
+.layout {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; /* penting supaya page tak scroll */
+}
+body.staff-page {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+button.approve { background-color: #4CAF50; color: white; padding: 5px 10px; border: none; margin-right: 5px; }
+button.reject { background-color: #f44336; color: white; padding: 5px 10px; border: none; }
+button.undo { background-color: #ffa500; color: white; padding: 5px 10px; border: none; margin-top: 5px; }
+
+
+.form-table td.nae-field input {
+    width: 380px !important;
+}
